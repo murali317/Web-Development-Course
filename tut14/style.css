@@ -1,0 +1,64 @@
+/*DESCENDANT SELECTOR*/
+div p{
+    background-color: brown;
+}
+
+/* CHILD SELECTOR */
+div > p{
+    color: orange;
+}
+
+/* ADJACENT SIBLING SELECTOR */
+main + p{
+    font-size: 30px;
+}
+
+/* GENERAL SIBLING SELECTOR */
+main ~ p{
+    background-color: cadetblue;
+    color: white;
+}
+
+/* PSEUDO CLASSES */
+button:hover{
+    cursor: pointer;
+}
+
+/* ANCHOR PSEUDO CLASSES */
+.anchor:link{
+    color: grey;
+}
+.anchor:visited{
+    color: orange;
+}
+.anchor:hover{
+    color: blue;
+}
+.anchor:active{
+    color: yellow;
+}
+
+/* p:first-child{
+    cursor: grab;
+} */
+
+p:first-of-type{
+    cursor: grab;
+}
+
+/* p:last-child{
+    color: white;
+    background-color: black;
+} */
+p:last-of-type{
+    color: white;
+    background-color: black;
+}
+
+/* NTH-CHILD */
+li:nth-child(odd){
+    color: blueviolet;
+}
+li:nth-child(n){
+    color: violet;
+}
