@@ -1,0 +1,36 @@
+/* ::FIRST-LETTER */
+p::first-letter{
+    color: blueviolet;
+}
+
+/* ::FIRST-LINE */
+p::first-line{
+    background-image: url("https://media.istockphoto.com/id/2123174926/photo/hands-of-robot-and-human-touch-the-web-development-of-global-networking-collaboration.webp?b=1&s=170667a&w=0&k=20&c=EWt3D4s59ImHptgQtMiJ_0YLuSkA5yF0MQXMDejBnjQ=");
+    color: white;
+}
+
+/* ::BEFORE */
+p::before{
+    /* content: url('https://media.istockphoto.com/id/1361083797/photo/weapon-pistol-or-gun-pointed-crime-killing-concept.webp?b=1&s=170667a&w=0&k=20&c=Td2AhxiFctSER5rQWjp_E1hFxzDeT5dQQtTOS1K4WJ0=') */
+    content: url('before.jpg');
+}
+
+/* ::AFTER */
+p::after{
+    /* content: url('https://media.istockphoto.com/id/1408204293/photo/royal-gold-modern-font-elite-3d-digit-letter-7-seven-on-black-3d-button-icon-3d-illustration.webp?b=1&s=170667a&w=0&k=20&c=lTYqHoiUVbbnx9kKtXq9XJ8mjtSmrJSNp8uA58uLIOg='); */
+    content: url("before.jpg");
+}
+
+/* SELECTION */
+p::selection{
+    background-color: grey;
+    color: hotpink;
+}
+
+a[target]{
+    color: red;
+}
+
+a[target="_blank"]{
+    background-color: orange;
+}
