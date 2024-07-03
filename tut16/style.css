@@ -1,0 +1,41 @@
+/* body{
+    padding: 0;
+    margin: 0;
+} */
+
+/* PADDING */
+/* h1{
+    border: 1px solid;
+    padding: 10px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding: 15px 45px;
+} */
+
+/* BORDER */
+/* h1{
+   border: 3px dashed rgba(255, 0, 0, 1); 
+   border-width: 10px;
+   border-style:solid;
+   border-color: green;
+   border-bottom-color: blueviolet;
+   border-radius: 20px;
+} */
+
+/* MARGIN */
+/* h1{
+    border: 2px dotted cyan;
+    margin: 10px 20px 0 20px;
+    
+} */
+
+/* BOX-SIZING PROPERTY */
+h1{
+    border: 2px solid grey;
+    width: 350px;
+    padding: 10px;
+    margin: 5px;
+    box-sizing: border-box;
+}
