@@ -1,0 +1,68 @@
+div>p{
+    width: 100%;
+    /* text-align: justify; */
+    text-align: center;
+    font-size: 28px;
+}
+
+span{
+    font-size: 8px;
+    background-color: aqua;
+    /* vertical-align: baseline; */
+    /* vertical-align: text-bottom; */
+    /* vertical-align: text-top; */
+    /* vertical-align: super; */
+    /* vertical-align: sub; */
+}
+
+#decoration>p{
+    /* text-decoration-line: underline;
+    text-decoration-color: brown;
+    text-decoration-style: dotted;
+    text-decoration-thickness: 5px; */
+
+    text-decoration: overline dashed brown 5px;
+    /* text-decoration: none; */
+}
+
+#transform>p{
+    text-transform: uppercase;
+    /* text-transform: capitalize; */
+    /* text-transform: none; */
+}
+
+#indent>p{
+    text-indent: 50px;
+}
+
+#spacing>p{
+    letter-spacing: 10px;
+    /* letter-spacing: -4px; */
+}
+
+#height>p{
+    line-height: 35px;
+}
+
+#word>p{
+    word-spacing: 2em;
+}
+
+#white>p{
+    /* white-space: nowrap; */
+    /* white-space: normal; */
+    white-space: pre;
+}
+
+#shadow>p{
+    text-align: center;
+    color: blue;
+    text-shadow: 3px -3px 10px rgb(230, 0, 255), 3px -3px 10px red;
+}
+
+#break>p{
+    width: 200px;
+    border: 2px solid;
+    /* word-break: keep-all; */
+    word-break: break-all;
+}
