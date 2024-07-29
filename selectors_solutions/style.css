@@ -1,0 +1,39 @@
+/* a.current{
+    color: red;
+} */
+
+/* .menu > li:not(:nth-child(3)){
+    color: red;
+}
+
+.inner p{
+    color: red;
+} */
+
+/* li > ol>li:first-child{
+    color: red;
+} */
+
+/* form>input:not(input:last-child){
+    background-color: red;
+} */
+
+/* table tr:nth-of-type(3){
+    background-color: red;
+} */
+
+/* .card:nth-child(2) p{
+    color: red;
+} */
+
+/* .content:nth-child(2) .button{
+    color: red;
+} */
+
+/* .container p:nth-of-type(2){
+    color: red;
+} */
+
+p.status{
+    color: red;
+}
