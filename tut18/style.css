@@ -1,0 +1,27 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+/* *{
+    margin: 0;
+} */
+
+/* font-family */
+p{
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+    font-family: Arial, sans-serif;
+}
+
+/* font-style and font-weight */
+div span{
+    font-weight: bold;
+    font-style: normal;
+    font-variant: small-caps; /* it is to convert normal text to small sized capitals */
+}
+
+#second-p{
+    /* font-size: 32px; */
+    /* font-size: 16px; */
+    font-size: 2vw;
+}
