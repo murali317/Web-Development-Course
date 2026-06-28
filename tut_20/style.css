@@ -1,0 +1,26 @@
+/* html{ */
+    /* font-size: 100%;
+} */
+
+.container1{
+    font-size: 2rem;
+    border: 1px solid;
+}
+
+.container{
+    font-size: 1.5rem;
+    border: 2px solid red;
+}
+
+.btn{
+    font-size: 1rem;
+}
+
+.containerLast{
+    width: 80vw;
+    height: 60vh;
+    border: 1px dotted blue;
+}
+
+.dummy { width: 75%; border: 2px solid brown; }
+img {  height: auto; } 
